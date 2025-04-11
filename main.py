@@ -12,8 +12,8 @@ from logs import setup_logger
 
 logger = setup_logger()
 
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHANNEL_ID = -1002359983884
+BOT_TOKEN = "8188509235:AAGtp4-ZQ1JHhzCdYM0eI5HK4LbPSo5uNog"
+CHANNEL_ID = -1002643447208
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👋 नमस्ते! PW Leech Bot चालू है। कोई वीडियो या PDF लिंक भेजो।")
